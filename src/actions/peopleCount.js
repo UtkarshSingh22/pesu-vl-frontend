@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const api = "http://localhost:8000/api";
+const api = "https://pesu-vl-backend.vercel.app/api";
 
 export const getCount = async () => {
     return await axios.get(`${api}/get-count`);
